@@ -1,7 +1,7 @@
 import { AppState } from "../AppState.js"
 
 export class Car {
-  constructor (data) {
+  constructor(data) {
     this.id = data.id
     this.make = data.make
     this.model = data.model
@@ -34,7 +34,7 @@ export class Car {
           <p>${this.description}</p>
           <p>Engine type: ${this.engineType}</p>
           <div class="d-flex align-items-center">
-            <img class="img-fluid rounded-circle car-creator"
+            <img class="img-fluid rounded-circle creator"
               src="${this.creator.picture}"
               alt="${this.creator.name}">
             <h4 class="ms-2">${this.creator.name}</h4>
